@@ -1,15 +1,21 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
-import { SKILLS, PROJECTS, JOBS } from "constants/data";
 import Root from "components/layout/Root";
 import JobList from "components/jobs/JobList";
 import SkillList from "components/skills/SkillList";
+import { SKILLS, PROJECTS, JOBS } from "constants/data";
 import ProjectList from "components/projects/ProjectList";
 
 const IndexPage = () => (
   <Root>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Pawan Kumar | Full Stack Developer based in India</title>
+      <link rel="canonical" href="https://pawan.dev" />
+    </Helmet>
     <div className="d-block d-md-flex flex-grow-1 align-items-center">
-      <div className="flex-grow-1 w-100 px-2 py-5 p-md-5">
+      <div className="flex-grow-1 w-100 px-2 pt-5 p-md-5">
         <h1 className="display-3 font-weight-bold">Hi, I am Pawan</h1>
         <h2 className="font-mono h6 font-weight-bold mt-3 text-primary">
           Full Stack Developer
@@ -17,7 +23,7 @@ const IndexPage = () => (
         <p className="font-pop mt-4">
           I am Full Stack web Developer based in India. I am a dreamer and a
           fanatic of all digital things. I have many years of experience in
-          developer stuffs in all areas of web.
+          developing stuffs in all areas of web.
         </p>
 
         <div className="mt-5">
@@ -32,7 +38,7 @@ const IndexPage = () => (
             <ProjectList projects={PROJECTS} />
           </div>
           <div className="mt-5">
-            <h3 className="font-mono text-muted h6">Experiences</h3>
+            <h3 className="font-mono text-muted h6">Experience</h3>
             <JobList jobs={JOBS} />
           </div>
         </div>
