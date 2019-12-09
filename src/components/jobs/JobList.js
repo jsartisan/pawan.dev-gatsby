@@ -5,8 +5,8 @@ import JobListItem from "./JobListItem";
 export default function JobList({ jobs }) {
   return (
     <div className="d-block d-md-flex mt-3 justify-content-between">
-      {jobs.map(job => (
-        <JobListItem job={job} />
+      {jobs.map((job, index) => (
+        <JobListItem key={`j-${index}`} job={job} />
       ))}
     </div>
   );

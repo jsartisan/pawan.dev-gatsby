@@ -1,28 +1,27 @@
 export const PROJECTS = [
   {
     name: "Hackr.io",
-    logo:
-      "https://hackr.io/assets/images/programming-images/programming-logo.svg",
+    logo: "/images/hackr.svg",
     description:
       "Share and discover the best programming tutorials and courses online",
     url: "https://hackr.io",
   },
   {
     name: "OwneyMail",
-    logo:
-      "https://firebasestorage.googleapis.com/v0/b/mail-stack.appspot.com/o/dog.jpg?alt=media",
+    logo: "/images/owney.jpg",
     description:
       "You don't have to just create static emails anymore. Now take full control of emails.",
     url: "https://owneymail.com",
   },
   {
-    name: "JsArtisan",
+    name: "Italic",
     description: "The art of coding with javascript",
-    url: "https://jsartisan.com",
+    url: "http://italic.com",
+    logo: "/images/italic.png",
   },
   {
     name: "Spectrum",
-    logo: "https://spectrumapp.io/dist/src/assets/images/Logo.svg",
+    logo: "/images/spectrum.svg",
     description: "Real-Time Monitoring of AWS Serviecs built on AWS Cloudwatch",
     background: "#2FCDB4",
     padding: 5,
@@ -64,12 +63,12 @@ export const SKILLS = [
 export const JOBS = [
   {
     name: "Anteelo",
-    year: "2019 - Present",
+    year: "2018 - Present",
     url: "https://anteelo.com",
   },
   {
     name: "Squareboat",
-    year: "2015 - 2019",
+    year: "2015 - 2018",
     url: "https://squareboat.com",
   },
   {

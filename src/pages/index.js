@@ -15,12 +15,12 @@ const IndexPage = () => (
       <link rel="canonical" href="https://pawan.dev" />
     </Helmet>
     <div className="d-block d-md-flex flex-grow-1 align-items-center">
-      <div className="flex-grow-1 w-100 px-2 pt-5 p-md-5">
-        <h1 className="display-3 font-weight-bold">Hi, I am Pawan</h1>
+      <div className="flex-grow-1 w-100 pt-5 px-0 pt-sm-4 px-sm-4">
+        <h1 className="display-4 font-weight-bold font-pop">Hi, I am Pawan</h1>
         <h2 className="font-mono h6 font-weight-bold mt-3 text-primary">
           Full Stack Developer
         </h2>
-        <p className="font-pop mt-4">
+        <p className="font-pop mt-4 ">
           I am Full Stack web Developer based in India. I am a dreamer and a
           fanatic of all digital things. I have many years of experience in
           developing stuffs in all areas of web.
@@ -31,9 +31,9 @@ const IndexPage = () => (
           <SkillList skills={SKILLS} />
         </div>
       </div>
-      <div className="w-100 px-2 py-5 p-md-5">
+      <div className="w-100 px-0 px-sm-4 mt-3 mt-sm-0">
         <div>
-          <h3 className="font-mono h6">Projects</h3>
+          <h3 className="font-mono h6 text-muted">Projects</h3>
           <div className="mt-3">
             <ProjectList projects={PROJECTS} />
           </div>

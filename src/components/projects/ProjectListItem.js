@@ -5,9 +5,8 @@ export default function ProjectListItem({ project }) {
     <a
       href={project.url}
       target="_blank"
-      without
       rel="noopener noreferrer"
-      className="d-block p-3 shadow-sm mb-4"
+      className="d-block p-3 shadow-sm mb-4 rounded"
     >
       <div className="d-flex align-items-center">
         <h6 className="flex-grow-1 font-pop font-weight-medium">
